@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="50px"
+        android:text="@string/gracias"
+        android:textSize="100px"
+         />
+
+    <Button
+        android:id="@+id/btIrEncuesta"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="Encuesta"
+        android:onClick="irEncuesta"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+    <Button
+        android:id="@+id/btCerrar"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="Cerrar Sesión"
+        android:onClick="cerrarSesion"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+</LinearLayout>

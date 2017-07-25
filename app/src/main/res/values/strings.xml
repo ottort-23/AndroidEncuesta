@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">login</string>
+    <string name="random">Ingresar</string>
+    <string name="numerorandom">0</string>
+    <string name="bienvenido_profesor">Bienvenido Profesor</string>
+    <string name="atletismo">Atletismo</string>
+    <string name="ajedrez">Ajedrez</string>
+    <string name="tennis">Tennis</string>
+    <string name="ping_pong">Ping Pong</string>
+    <string name="baseball">BaseBall</string>
+    <string name="voleyball">VoleyBall</string>
+    <string name="basketball">Basketball</string>
+    <string name="futbol">Futbol</string>
+    <string name="selecciona_los_deportes_que_practicas">4. Selecciona los deportes que practicas</string>
+    <string name="selecciona_tu_carrera">3. Selecciona tu carrera</string>
+    <string name="_1_fecha_de_nacimiento">2. Fecha de nacimiento</string>
+    <string name="pregunta5">5. Del 1 al 5 que satisfecho esta con las instalaciones deportivas de la universidad</string>
+    <string name="fin_encuesta">Fin Encuesta</string>
+    <string name="gracias">Gracias!</string>
+    <string-array name="semestres">
+        <item>1 semestre</item>
+        <item>2 semestre</item>
+        <item>3 semestre</item>
+        <item>4 semestre</item>
+        <item>5 semestre</item>
+        <item>6 semestre</item>
+        <item>7 semestre</item>
+        <item>8 semestre</item>
+        <item>9 semestre</item>
+        <item>10 semestre</item>
+    </string-array>
+
+    <string-array name="carreras">
+        <item>Ing. Sistemas</item>
+        <item>Ing. Civil</item>
+        <item>Ing. Electronica</item>
+        <item>Arquitectura</item>
+        <item>Administracion</item>
+        <item>Derecho</item>
+    </string-array>
+
+
+</resources>

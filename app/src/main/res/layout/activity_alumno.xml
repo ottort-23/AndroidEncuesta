@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="20px"
+            android:text="Ecuesta Estudiante"
+            android:textSize="75px"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="20px"
+
+            android:text="1. Hombre / Mujer"
+            android:textSize="40px"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hombre" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mujer" />
+
+
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="20px"
+            android:text="@string/selecciona_tu_carrera"
+            android:textSize="40px"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Spinner
+                android:id="@+id/spnCarrera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/carreras"
+                android:spinnerMode="dialog" />
+
+            <Spinner
+                android:id="@+id/spnSemestre"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/semestres"
+                android:spinnerMode="dialog" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="20px"
+            android:text="@string/selecciona_los_deportes_que_practicas"
+            android:textSize="40px"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="25px"
+                android:text="@string/futbol" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="25px"
+                android:text="@string/basketball" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="25px"
+                android:text="@string/voleyball" />
+
+            <CheckBox
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="25px"
+                android:text="@string/baseball" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="25px"
+                android:text="@string/atletismo" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="25px"
+                android:text="@string/ajedrez" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="25px"
+                android:text="@string/tennis" />
+
+            <CheckBox
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="25px"
+                android:text="@string/ping_pong" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="20px"
+            android:text="@string/pregunta5"
+            android:textSize="40px"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:numStars="5"/>
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="10" />
+
+        <Button
+            android:id="@+id/btnFinEncuesta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="finEncuesta"
+            android:text="@string/fin_encuesta" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+
